@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section#gallery section.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+
+section#gallery section.wrapper img {
+    width: 534px;
+    height: 340px;
+    margin: 10px;
+    
+
+}
+
+@media all and (ma-width:768px){
+    section#gallery section.wrapper img {
+       width: 100%;
+    }
+}
+@media all and (max-width:980px){
+    section#gallery section.wrapper img {
+       width: 30%;
+    }
+}
